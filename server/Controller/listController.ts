@@ -1,6 +1,6 @@
 export { }
-const user = require("../Schema/user");
-const list = require("../Schema/list");
+const user = require("../Schema/User");
+const list = require("../Schema/List");
 const crypto = require('crypto');
 const jwt = require('jwt-simple');
 

@@ -1,5 +1,5 @@
 export { }
-const user = require("../Schema/user");
+const user = require("../Schema/User");
 const crypto = require('crypto');
 const nodemailer = require('nodemailer');
 const jwt = require('jwt-simple');
