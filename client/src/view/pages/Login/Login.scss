@@ -9,7 +9,7 @@
 
     .mainHeader{
         .registerLogo{
-            width: 28vw;
+            width: 200px;
             height: 20vh;
         }
     }
@@ -112,8 +112,8 @@
 
         .mainHeader{
             .registerLogo{
-                width: 40vw;
-                height: 15vh;
+                width: 200px;
+                height: 150px;
             }
         }
 
@@ -121,7 +121,7 @@
            
             .signInButtonGoogle{
                 .gmailSignUp{
-                    height: 5vh;
+                    height: 35px;
                     width: 70vw;
 
                     label{
@@ -131,7 +131,7 @@
             }
             .signInButtonFaceBook{
                 .gmailSignUp{
-                    height: 5vh;
+                    height: 35px;
                     width: 70vw;
 
                     label{
@@ -161,11 +161,11 @@
             .loginWithEmailAndPass{
 
                 .EmailRegistered{
-                    height: 5vh;
+                    height: 35px;
                     width: 70vw;
                 }
                 .passRegistered{
-                    height: 5vh;
+                    height: 35px;
                     width: 70vw;
                 }
 
