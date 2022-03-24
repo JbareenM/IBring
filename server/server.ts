@@ -25,10 +25,11 @@ db.once("open", () => {
 
 app.use("/user", userRouter);
 app.use("/meeting", listRouter);
+const path = require('path');
 
-app.get("/", (req, res) => {
-  res.send("hello world!");
-});
+app.get('/*', (req, res) => {
+  res.sendFile(path.join(__dirname, '..', "client", 'build', 'index.html'));
+})
 
 const port = process.env.PORT || 3001;
 app.listen(port, () => console.log(`Server running on port ${port} 🔥`));
