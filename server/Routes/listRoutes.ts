@@ -1,6 +1,6 @@
 import { checkStatus } from "../Controller/userController";
+export {}
 
-export { };
 const express = require("express");
 const router = express.Router();
 const listController = require("../Controller/listController");

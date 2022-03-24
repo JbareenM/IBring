@@ -2,9 +2,12 @@
   "name": "server",
   "version": "1.0.0",
   "main": "server.ts",
+  "compilerOptions" : {
+    
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.ts"
+      "start": "ts-node server.ts",
+      "dev": "nodemon -x ts-node src/config/server.ts"
   },
   "keywords": [],
   "author": "",
